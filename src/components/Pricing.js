@@ -10,7 +10,7 @@ const Pricing = () => {
   //destructure pricing
   const {title, cards} = pricing
   return (
-    <section className='bg-orange-200 section'>
+    <section className='bg-orange-100 section'>
       <div className='container mx-auto'>
         {/** title **/}
         <h2 
@@ -34,8 +34,8 @@ const Pricing = () => {
                 <div
                   onClick={() => setIndex(cardIndex)}
                   className={`${cardIndex === index 
-                    ? 'bg-white shadow-xl'
-                    :'border border-gray'
+                    ? 'bg-orange-200 shadow-xl'
+                    :'border border-accent'
                   }  w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all                  
                   `}
                 >
