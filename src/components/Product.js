@@ -7,7 +7,7 @@ const Product = () => {
   //destrucure product data
   const {title, subtitle} = product
   return (
-    <section className='section'>
+    <section className='section bg-orange-100'>
       <div className='container mx-auto'>
         {/** title & subtitle **/}
         <div className='flex flex-col items-center lg:flex-row mb-10 lg:mb-20'>
