@@ -41,8 +41,8 @@ export const nav = [
 ];
 
 export const hero = {
-  title: 'Track your Expenses to Save Money',
-  subtitle: 'Helps you to organize your income and expenses',
+  title: '¿Quienes Somos?',
+  subtitle: 'Somos una firma que se está abriendo camino a nivel nacional e internacional y se esta posicionando como una de las mejores brindando un servicio profesional y de vanguardia',
   btnText: 'Try free demo',
   compText: '— Web, iOS and Android',
   image: HeroImg,
@@ -77,25 +77,25 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'Alwalys online',
-    title: 'Real-time support with cloud',
+    title: 'Misión',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'Tener las mejores soluciones de nuestros clientes completamente satisfechos, dando prioridad a la confianza mutua, para que su situacion financiera este transparente, para el beneficio del usuario',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
     pretitle: 'Free some cost',
-    title: 'Save cost for you and family',
+    title: 'Vision',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'Liderar como una de las firmas más confiables a nivel nacional e internacional, llevando de la mano a nuestros clientes con nuestros servicios, que lleguen al nivel que desean',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
     pretitle: 'Use anytime',
-    title: 'Use anytime when you need',
+    title: 'Catalogo de Servicios',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn more',
@@ -105,25 +105,25 @@ export const features = {
 };
 
 export const product = {
-  title: 'The Product we work with.',
+  title: 'Contable y Fiscal.',
   subtitle:
     'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
   cards: [
     {
       icon: CardIconImg1,
-      title: 'Cross platform',
+      title: 'Cumplimiento de obligaciones fiscales',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 200,
     },
     {
       icon: CardIconImg2,
-      title: 'Cloud server',
+      title: 'Regularización de ejercicios de años anteriores',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 400,
     },
     {
       icon: CardIconImg3,
-      title: 'Pure Javascript',
+      title: 'Facturación Electronica',
       subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
       delay: 600,
     },
@@ -131,11 +131,11 @@ export const product = {
 };
 
 export const pricing = {
-  title: 'Choose your flexible plan.',
+  title: 'Laboral y Administrativo',
   cards: [
     {
       icon: PricingIcon1,
-      title: 'Starter Plan',
+      title: 'Formalizacion de Nóminas',
       services: [
         { name: 'Store unlimited data' },
         { name: 'Export to pdf, xls, csv' },
@@ -148,7 +148,7 @@ export const pricing = {
     },
     {
       icon: PricingIcon2,
-      title: 'Silver Plan',
+      title: 'Altas, bajas, IMMS',
       services: [
         { name: 'Store unlimited data' },
         { name: 'Export to pdf, xls, csv' },
@@ -161,7 +161,7 @@ export const pricing = {
     },
     {
       icon: PricingIcon3,
-      title: 'Diamond Plan',
+      title: 'Esquemas de Remuneraciones',
       services: [
         { name: 'Store unlimited data' },
         { name: 'Export to pdf, xls, csv' },
