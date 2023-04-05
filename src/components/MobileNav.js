@@ -18,9 +18,7 @@ const MobileNav = () => {
           </li>
           )
         })}
-
       </ul>
-      
     </div>
   )
 };
