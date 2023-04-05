@@ -5,7 +5,7 @@ import { footer } from '../data';
 import Copyright from '../components/Copyright';
 const Footer = () => {
   //destrucure footer data
-  const { logo, links, legal, newsletter, form } = footer
+  const { logo, links, newsletter, form } = footer
   return (
     <footer className='pt-[142px] pb-[60px] bg-orange-100'>
       <div className='container mx-auto'>
