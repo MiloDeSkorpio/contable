@@ -31,7 +31,7 @@ const Header = () => {
         <div className='container mx-auto flex justify-between items-center'>
           {/* logo */}
           <a 
-            href='#' 
+            href='/' 
             data-aos='fade-down' 
             data-aos-delay='1000'
           >

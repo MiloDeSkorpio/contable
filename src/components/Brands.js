@@ -21,7 +21,7 @@ const Brands = () => {
               {/** brand img **/}
               <img 
                 src={image} 
-                alt='image brand'
+                alt=''
               />
             </div>
           )
