@@ -1,12 +1,6 @@
 // import images
 import LogoImg from '../src/assets/img/header/logo-decofis.png';
 import HeroImg from '../src/assets/img/hero/image.svg';
-import OverviewProductImg from '../src/assets/img/overview/product.svg';
-import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
-import GoogleImg from '../src/assets/img/overview/brands/google.svg';
-import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
-import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
-import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
 import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
@@ -48,44 +42,18 @@ export const hero = {
   image: HeroImg,
 };
 
-export const overview = {
-  productImg: OverviewProductImg,
-  brands: [
-    {
-      image: FacebookImg,
-      delay: 300,
-    },
-    {
-      image: GoogleImg,
-      delay: 400,
-    },
-    {
-      image: CocaColaImg,
-      delay: 500,
-    },
-    {
-      image: LinkedInImg,
-      delay: 600,
-    },
-    {
-      image: SamsungImg,
-      delay: 700,
-    },
-  ],
-};
-
 export const features = {
   feature1: {
-    pretitle: 'Alwalys online',
+    pretitle: 'Las Mejores Soluciones',
     title: 'Misión',
     subtitle:
       'Tener las mejores soluciones de nuestros clientes completamente satisfechos, dando prioridad a la confianza mutua, para que su situacion financiera este transparente, para el beneficio del usuario',
-    btnLink: 'Learn more',
+    btnLink: 'Visión',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Free some cost',
+    pretitle: 'Confiabilidad',
     title: 'Vision',
     subtitle:
       'Liderar como una de las firmas más confiables a nivel nacional e internacional, llevando de la mano a nuestros clientes con nuestros servicios, que lleguen al nivel que desean',
@@ -94,10 +62,10 @@ export const features = {
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Use anytime',
+    pretitle: 'Servicios',
     title: 'Catalogo de Servicios',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      'Contamos con un amplio catalogo de servicios',
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,

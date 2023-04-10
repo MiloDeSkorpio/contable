@@ -8,7 +8,7 @@ const Feature2 = () => {
   //destrucure feature2
   const { pretitle, title, subtitle, btnLink, btnIcon, image} = feature2
   return (
-    <section className='section bg-orange-100'>
+    <section className='section bg-blue-50'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           {/** image **/}
