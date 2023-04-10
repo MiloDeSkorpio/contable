@@ -1,5 +1,5 @@
 // import images
-import LogoImg from '../src/assets/img/header/logo.svg';
+import LogoImg from '../src/assets/img/header/logo-decofis.png';
 import HeroImg from '../src/assets/img/hero/image.svg';
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
 import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
@@ -30,7 +30,7 @@ import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Request a demo',
+  btnText: 'Contáctanos',
 };
 
 export const nav = [
@@ -43,8 +43,8 @@ export const nav = [
 export const hero = {
   title: '¿Quienes Somos?',
   subtitle: 'Somos una firma que se está abriendo camino a nivel nacional e internacional y se esta posicionando como una de las mejores brindando un servicio profesional y de vanguardia',
-  btnText: 'Try free demo',
-  compText: '— Web, iOS and Android',
+  btnText: 'Ver más',
+  compText: '— Misión, Visión y  Catalogo de Servicios',
   image: HeroImg,
 };
 

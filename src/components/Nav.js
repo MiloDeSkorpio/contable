@@ -11,7 +11,7 @@ const Nav = () => {
           const { href, name } = item
           return(
             <li key={index}>
-              <a className=' hover:text-accent transition' href={href}>
+              <a className=' hover:text-blue-600 transition' href={href}>
                 {name}
               </a>
             </li>

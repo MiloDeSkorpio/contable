@@ -5,7 +5,7 @@ import { nav } from '../data'
 
 const MobileNav = () => {
   return (
-    <div className='bg-accent/95 w-full h-full'>
+    <div className='bg-blue-600 w-full h-full'>
       <ul className='h-full flex flex-col justify-center items-center gap-y-8'>
         {nav.map((item,index)=>{
           //destrucure item

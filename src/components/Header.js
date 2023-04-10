@@ -35,7 +35,11 @@ const Header = () => {
             data-aos='fade-down' 
             data-aos-delay='1000'
           >
-            <img src={logo} alt='logo'/>
+            <img 
+              src={logo} 
+              alt='logo'
+              className='w-36 h-24 m-0'
+            />
           </a>
           {/** nav - initially hidden - show on desktop mode **/}
           <div 
@@ -58,9 +62,9 @@ const Header = () => {
             setMovileNav(!mobileNav)
           }}>
             {mobileNav ? (
-              <HiOutlineX className='text-3xl text-accent' />
+              <HiOutlineX className='text-3xl text-blue-700' />
             ) :(
-              <HiMenuAlt4 className='text-3xl text-accent' />
+              <HiMenuAlt4 className='text-3xl text-blue-700' />
             )}
           </button>
            {/** mobile nav - hidden on desktop **/}
@@ -69,7 +73,7 @@ const Header = () => {
               ${mobileNav
                 ? 'left-0' 
                 : '-left-full'}
-              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-orange-400    
+              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-blue-500    
            `}
            >
             <MobileNav />
