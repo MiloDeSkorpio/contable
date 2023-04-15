@@ -16,7 +16,11 @@ const Footer = () => {
             data-aos-offset='200'
             data-aos-delay='300'
           >
-            <img src={logo} alt='logof' />
+            <img 
+              src={logo} 
+              alt='logof' 
+              className='h-56 w-56'
+              />
           </div>
           {/** list 1 **/}
           <div
@@ -75,7 +79,7 @@ const Footer = () => {
               <div className='text-2xl uppercase font-medium'>{newsletter.title}</div>
               <div className='text-xl text-light mb-[18px]'>{newsletter.subtitle}</div>
               {/** form **/}
-              <form className='bg-orange-100 max-w-[349px] mb-[10px]'>
+              <form className='bg-blue-100 max-w-[349px] mb-[10px]'>
                 <div className='h-[62px] p-[7px] flex border border-dark rounded-lg'>
                   <input 
                     type='text' 
