@@ -10,7 +10,7 @@ const Pricing = () => {
   //destructure pricing
   const {title, cards} = pricing
   return (
-    <section className='bg-orange-100 section'>
+    <section className='bg-orange-100 section' id='form'>
       <div className='container mx-auto'>
         {/** title **/}
         <h2 

@@ -5,9 +5,6 @@ import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
-import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
-import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
-import CardIconImg3 from '../src/assets/img/product/cards/icon3.svg';
 import PricingIcon1 from '../src/assets/img/pricing/icon1.svg';
 import PricingIcon2 from '../src/assets/img/pricing/icon2.svg';
 import PricingIcon3 from '../src/assets/img/pricing/icon3.svg';
@@ -73,27 +70,49 @@ export const features = {
 };
 
 export const product = {
-  title: 'Contable y Fiscal.',
+  title: 'Contable y Fiscal',
   subtitle:
     'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
   cards: [
     {
-      icon: CardIconImg1,
       title: 'Cumplimiento de obligaciones fiscales',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 200,
+      delay: 100
     },
     {
-      icon: CardIconImg2,
       title: 'Regularización de ejercicios de años anteriores',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 400,
+      delay: 200
     },
     {
-      icon: CardIconImg3,
       title: 'Facturación Electronica',
-      subtitle: 'Elit esse cillum dolore eu fugiat nulla pariatur',
-      delay: 600,
+      delay: 300
+    },
+    {
+      title: 'Emisión de Estados Financieros',
+      delay: 400
+    },
+    {
+      title: 'Diagnósticos Fiscales',
+      delay: 500
+    },
+    {
+      title: 'Control de Presupuestos',
+      delay: 500
+    },
+    {
+      title: 'Inventarios',
+      delay: 400
+    },
+    {
+      title: 'Devoluciones y Seguimiento',
+      delay: 300
+    },
+    {
+      title: 'Estrategias Fiscales',
+      delay: 200
+    },
+    {
+      title: 'Análisis de Riesgos',
+      delay: 100
     },
   ],
 };
@@ -233,7 +252,7 @@ export const copyright = {
     name: 'Contact us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 xpence',
+  copyText: 'Copyright @ 2023 Decofis',
   social: [
     { icon: FacebookIcon, href: '/' },
     { icon: TwitterIcon, href: '/' },

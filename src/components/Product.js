@@ -7,10 +7,10 @@ const Product = () => {
   //destrucure product data
   const {title, subtitle} = product
   return (
-    <section className='section bg-orange-100'>
+    <section className='section bg-blue-50' id=''>
       <div className='container mx-auto'>
         {/** title & subtitle **/}
-        <div className='flex flex-col items-center lg:flex-row mb-10 lg:mb-20'>
+        <div className='flex flex-col items-center mb-10 lg:mb-20'>
           <h2
             className='section-title'
             data-aos='fade-up'
@@ -20,7 +20,7 @@ const Product = () => {
           {title}
           </h2>
           <p 
-            className='lead lg:max-w-[350px]'
+            className='lead lg:max-w-[450px]'
             data-aos='fade-up'
             data-aos-offset='400'
             data-aos-delay='400'
