@@ -29,7 +29,7 @@ const Cards = () => {
                 {/** card title **/}
                 <div className='mb-3 text-[25px] font-medium'>{title}</div>
                 {/** card img **/}
-                {index === cardIndex &&  <a href='#form'><img src={ArrowImg} alt='rowcard' /></a>}
+                {index === cardIndex &&  <a href='#contacto'><img src={ArrowImg} alt='rowcard' /></a>}
               </div>
             </div>
           )

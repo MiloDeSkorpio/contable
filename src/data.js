@@ -5,13 +5,6 @@ import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
-import AvatarImg1 from '../src/assets/img/testimonial/avatar1.png';
-import AvatarImg2 from '../src/assets/img/testimonial/avatar2.png';
-import AvatarImg3 from '../src/assets/img/testimonial/avatar3.png';
-import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
-import AvatarImg5 from '../src/assets/img/testimonial/avatar5.png';
-import CtaImg1 from '../src/assets/img/cta/image1.svg';
-import CtaImg2 from '../src/assets/img/cta/image2.svg';
 import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
 import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
@@ -148,60 +141,6 @@ export const pricing = {
   ],
 };
 
-export const testimonials = {
-  title: 'We have millions of best wishers',
-  clients: [
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg1,
-      name: 'Cameron Williamson',
-      position: 'CEO',
-      borderColor: '#FF7235',
-    },
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg2,
-      name: 'Shirley Hand',
-      position: 'CEO',
-      borderColor: '#FFBE21',
-    },
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg3,
-      name: 'Dr. Olivia Hansen',
-      position: 'CEO',
-      borderColor: '#4756DF',
-    },
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg4,
-      name: 'Aubrey Sanford',
-      position: 'CEO',
-      borderColor: '#3EC1F3',
-    },
-    {
-      message:
-        'Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium',
-      image: AvatarImg5,
-      name: 'Terri Conroy',
-      position: 'CEO',
-      borderColor: '#BB7259',
-    },
-  ],
-};
-
-export const cta = {
-  title: '20M+ downloaded from 32 different countries',
-  subtitle: 'Try demo for 7 days with full features.',
-  btnText: 'Try free demo',
-  img1: CtaImg1,
-  img2: CtaImg2,
-};
-
 export const footer = {
   logo: LogoImg,
   links: [
@@ -218,14 +157,10 @@ export const footer = {
     { name: 'Privacy policy', href: '/' },
     { name: 'Cookie policy', href: '/' },
   ],
-  newsletter: {
-    title: 'Newsletter',
-    subtitle: 'Over 25000 people have subscribed',
-  },
   form: {
-    placeholder: 'Enter your email',
-    btnText: 'Subscribe',
-    smallText: 'We don’t sell your email and spam',
+    placeholder: 'Ingresa Tu Correo',
+    btnText: 'Enviar',
+    smallText: 'Nos pondremos en contacto contigo a la brevedad',
   },
 };
 
@@ -235,7 +170,7 @@ export const copyright = {
     href: '/',
   },
   link2: {
-    name: 'Contact us',
+    name: 'Contáctanos',
     href: '/',
   },
   copyText: 'Copyright @ 2023 Decofis',

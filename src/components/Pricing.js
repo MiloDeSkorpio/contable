@@ -42,7 +42,7 @@ const Pricing = () => {
                   {/** card title **/}
                   <div className='text-[25px] font-semibold mb-3'>{title}</div>
                    {/** card img **/}
-                {index === cardIndex &&  <a href='#form'><img src={ArrowImg} alt='rowcard' /></a>}
+                {index === cardIndex &&  <a href='#contacto'><img src={ArrowImg} alt='rowcard' /></a>}
                 </div>
               </div>
             )

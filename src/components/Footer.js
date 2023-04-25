@@ -5,9 +5,9 @@ import { footer } from '../data';
 import Copyright from '../components/Copyright';
 const Footer = () => {
   //destrucure footer data
-  const { logo, links, newsletter, form, legal } = footer
+  const { logo, links, form, legal } = footer
   return (
-    <footer className='pt-[142px] pb-[60px] bg-blue-100'>
+    <footer className='pt-[142px] pb-[60px] bg-blue-50'>
       <div className='container mx-auto'>
         <div className=' flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-between gap-y-8'>
           {/** logo **/}
@@ -69,27 +69,6 @@ const Footer = () => {
                 )
               })}
             </ul>
-          </div>
-          {/** newsletter**/}
-          <div
-            data-aos='fade-up'
-            data-aos-offset='200'
-            data-aos-delay='900'
-          >
-              <div className='text-2xl uppercase font-medium'>{newsletter.title}</div>
-              <div className='text-xl text-light mb-[18px]'>{newsletter.subtitle}</div>
-              {/** form **/}
-              <form className='bg-blue-100 max-w-[349px] mb-[10px]'>
-                <div className='h-[62px] p-[7px] flex border border-dark rounded-lg'>
-                  <input 
-                    type='text' 
-                    className='w-full h-full pl-6 border-none outline-none placeholder:text-dark'
-                    placeholder={form.placeholder}
-                  />
-                  <button className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>{form.btnText}</button>
-                </div>
-              </form>
-              <span className='text-sm text-light'>{form.smallText}</span>
           </div>
         </div>
         <hr 
