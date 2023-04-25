@@ -8,6 +8,7 @@ import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
 import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
+import ContactImg from '../src/assets/img/form/contact.svg';
 
 export const header = {
   logo: LogoImg,
@@ -158,9 +159,13 @@ export const footer = {
     { name: 'Cookie policy', href: '/' },
   ],
   form: {
-    placeholder: 'Ingresa Tu Correo',
+    ph1: 'Pedro López',
+    ph2: 'pedro.lopez@correo.es',
+    ph3: 'Cotizacion',
+    ph4: 'Requiero informes sobre...',
     btnText: 'Enviar',
-    smallText: 'Nos pondremos en contacto contigo a la brevedad',
+    smallText: 'Recuerda revisar tus datos!',
+    logo: ContactImg
   },
 };
 
@@ -171,7 +176,7 @@ export const copyright = {
   },
   link2: {
     name: 'Contáctanos',
-    href: '/',
+    href: '#contacto',
   },
   copyText: 'Copyright @ 2023 Decofis',
   social: [

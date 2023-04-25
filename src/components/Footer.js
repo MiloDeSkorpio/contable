@@ -5,7 +5,7 @@ import { footer } from '../data';
 import Copyright from '../components/Copyright';
 const Footer = () => {
   //destrucure footer data
-  const { logo, links, legal } = footer
+  const { logo } = footer
   return (
     <footer className='pt-[142px] pb-[60px] bg-blue-50'>
       <div className='container mx-auto'>
@@ -22,55 +22,6 @@ const Footer = () => {
               className='h-56 w-56'
               />
           </div>
-          {/** list 1 **/}
-          <div
-            data-aos='fade-up'
-            data-aos-offset='200'
-            data-aos-delay='500'
-          >
-            <div className='text-2xl uppercase font-medium mb-6'>Links</div>
-            <ul className='flex flex-col gap-y-3'>
-              {links.map((item, index) => {
-                //destrucutre item
-                const { href, name } = item
-                return (
-                  <li key={index}>
-                    <a
-                      href={href}
-                      className='font-medium hover:text-accent transition'
-                    >
-                      {name}
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-          {/** list 2 **/}
-          <div
-            data-aos='fade-up'
-            data-aos-offset='200'
-            data-aos-delay='700'
-          >
-            <div className='text-2xl uppercase font-medium mb-6'>Legal</div>
-            <ul className='flex flex-col gap-y-3'>
-              {legal.map((item, index) => {
-                //destrucutre item
-                const { href, name } = item
-                return (
-                  <li key={index}>
-                    <a
-                      href={href}
-                      className='font-medium hover:text-accent transition'
-                      >
-                      {name}
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        </div>
         <hr 
           className='mt-10 mb-5'
           data-aos='fade-up'
@@ -78,6 +29,7 @@ const Footer = () => {
           data-aos-delay='200'
         />
         <Copyright />
+        </div>
       </div>
     </footer>
 

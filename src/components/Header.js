@@ -54,6 +54,7 @@ const Header = () => {
             className='btn btn-sm btn-outline hidden lg:flex'
             data-aos='fade-down' 
             data-aos-delay='1400'
+            href='#contacto'
           >
             {btnText}
           </button>
