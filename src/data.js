@@ -240,7 +240,7 @@ export const copyright = {
   },
   copyText: 'Copyright @ 2023 Decofis',
   social: [
-    { icon: FacebookIcon, href: '/' },
+    { icon: FacebookIcon, href: 'https://www.facebook.com/profile.php?id=100064041577037' },
     { icon: TwitterIcon, href: '/' },
     { icon: LinkedinIcon, href: '/' },
   ],
