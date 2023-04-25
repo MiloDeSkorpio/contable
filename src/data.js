@@ -121,44 +121,33 @@ export const pricing = {
   title: 'Laboral y Administrativo',
   cards: [
     {
-      icon: PricingIcon1,
-      title: 'Formalizacion de Nóminas',
-      services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
-      ],
-      price: '$9.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
-      delay: 300,
+      title: 'Formalización de Nominas',
+      delay: 100
     },
     {
-      icon: PricingIcon2,
-      title: 'Altas, bajas, IMMS',
-      services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
-      ],
-      price: '$19.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
-      delay: 600,
+      title: 'Altas Bajas IMMS',
+      delay: 200
     },
     {
-      icon: PricingIcon3,
-      title: 'Esquemas de Remuneraciones',
-      services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
-      ],
-      price: '$29.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
-      delay: 900,
+      title: 'Esquemas de remuneraciones',
+      delay: 300
     },
+    {
+      title: 'Formalización de Declaraciones IMMS,ICSOE, y SISUB',
+      delay: 400
+    },
+    {
+      title: 'Formalización de contratos laborales y sus prórogas',
+      delay: 500
+    },
+    {
+      title: 'Representante de Administración',
+      delay: 600
+    },
+    {
+      title: 'Tramite y seguimiento para REPSE',
+      delay: 700
+    }
   ],
 };
 
