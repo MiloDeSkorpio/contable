@@ -24,7 +24,7 @@ const Cards = () => {
             >
               <div 
                 onClick={() => setIndex(cardIndex)}
-                className={`${index === cardIndex && 'bg-blue-300 shadow-2xl'} w-[200px] h-[175px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center rounded-[15px] cursor-pointer transition-all`}
+                className={`${index === cardIndex ? 'bg-blue-300 shadow-2xl' : 'border border-blue-500'} w-[200px] h-[175px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center rounded-[15px] cursor-pointer transition-all`}
               >
                 {/** card title **/}
                 <div className='mb-3 text-[25px] font-medium'>{title}</div>

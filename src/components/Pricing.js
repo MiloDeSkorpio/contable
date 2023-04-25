@@ -1,16 +1,16 @@
 import {React, useState} from 'react';
 //import data
 import { pricing } from '../data';
-//import icons
-import {HiCheck, HiOutlineArrowNarrowRight} from 'react-icons/hi'
+//import images
+import ArrowImg from '../assets/img/product/cards/arrow.svg'
 
 const Pricing = () => {
   //set index
   const [index, setIndex] = useState(1)
   //destructure pricing
-  const {title, cards} = pricing
+  const {title, cards } = pricing
   return (
-    <section className='bg-orange-100 section' id='form'>
+    <section className='bg-blue-50 section' id='form'>
       <div className='container mx-auto'>
         {/** title **/}
         <h2 
@@ -19,10 +19,10 @@ const Pricing = () => {
                 data-aos-delay='200'
         >{title}</h2>
         {/** cards **/}
-        <div className='flex flex-col lg:flex-row lg:gap-x-[30px] gap-y-[30px] lg:gap-y-0 justify-center items-center'>
+        <div className='grid grid-rows-1 gap-y-[20px] md:grid-cols-3 md:gap-y-[35px] lg:grid-cols-4 lg:gap-y-[30px] xl:grid-cols-5'>
           {cards.map((card,cardIndex) => {
             //destructure card
-            const {icon, title, services, price, userAmount, btnText, delay} = card
+            const { title, delay} = card
             //card
             return (
               <div 
@@ -34,50 +34,15 @@ const Pricing = () => {
                 <div
                   onClick={() => setIndex(cardIndex)}
                   className={`${cardIndex === index 
-                    ? 'bg-orange-200 shadow-xl'
-                    :'border border-accent'
-                  }  w-[350px] h-[500px] rounded-[12px] p-[40px] cursor-pointer transition-all                  
+                    ? 'bg-blue-300 shadow-xl'
+                    :'border border-blue-500'
+                  }  w-[200px] h-[175px] rounded-[12px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center cursor-pointer transition-all                  
                   `}
                 >
-                  {/** card icon **/}
-                  <div className='mb-8'>
-                    <img src={icon} alt='card' />
-                  </div>
                   {/** card title **/}
-                  <div className='text-[32px] font-semibold mb-8'>{title}</div>
-                  {/** card services **/}
-                  <div className='flex flex-col gap-y-2 mb-6'>
-                    {services.map((service,index) => {
-                      //destructure service
-                      const {name} = service
-                      return (
-                        <div 
-                          key={index}
-                          className='flex items-center gap-x-[10px]'
-                        > 
-                        <HiCheck className='text-light' />
-                          <div>{name}</div>
-                        </div>  
-                      )
-                    })}
-                  </div>
-                  <div className='mb-10'>
-                    <div>
-                      <span className='text-2xl font-semibold'>{price}</span>
-                      <span className='text-xl text-light font-light'>year</span>
-                    </div>
-                    <div className='text-base text-light'>{userAmount}</div>
-                  </div>
-                  {/** btn **/}
-                  <button className={`${cardIndex=== index 
-                  ? 'bg-accent hover:bg-accentHover text-white' 
-                  : 'border border-accent text-accent' 
-                  } btn btn-sm space-x-[14px]
-                  `}
-                  >
-                    <span>{btnText}</span>
-                    <HiOutlineArrowNarrowRight />
-                  </button>
+                  <div className='text-[25px] font-semibold mb-3'>{title}</div>
+                   {/** card img **/}
+                {index === cardIndex &&  <a href='#form'><img src={ArrowImg} alt='rowcard' /></a>}
                 </div>
               </div>
             )
