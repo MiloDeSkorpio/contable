@@ -5,6 +5,7 @@ import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
+import LaboralImg from '../src/assets/img/pricing/work.svg'
 import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
 import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
@@ -110,6 +111,7 @@ export const product = {
 
 export const pricing = {
   title: 'Laboral y Administrativo',
+  img: LaboralImg,
   cards: [
     {
       title: 'Formalización de Nominas',
@@ -144,20 +146,6 @@ export const pricing = {
 
 export const footer = {
   logo: LogoImg,
-  links: [
-    { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
-    { name: 'Careers', href: '/' },
-    { name: 'Pricing', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
-  ],
-  legal: [
-    { name: 'Terms of use', href: '/' },
-    { name: 'Terms of conditions', href: '/' },
-    { name: 'Privacy policy', href: '/' },
-    { name: 'Cookie policy', href: '/' },
-  ],
   form: {
     ph1: 'Pedro López',
     ph2: 'pedro.lopez@correo.es',

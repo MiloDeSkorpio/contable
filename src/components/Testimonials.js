@@ -68,7 +68,7 @@ const { form } = footer
         >
           <img 
               src={form.logo} 
-              alt='logof' 
+              alt='logof'
             />
         </div>
         </div>
