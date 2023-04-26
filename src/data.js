@@ -7,8 +7,7 @@ import Feature3Img from '../src/assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import LaboralImg from '../src/assets/img/pricing/work.svg'
 import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
-import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
-import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
+import WhatsAppIcon from '../src/assets/img/copyright/whatsapp.svg';
 import ContactImg from '../src/assets/img/form/contact.svg';
 import ContableImg from '../src/assets/img/product/contable.svg'
 
@@ -158,18 +157,14 @@ export const footer = {
 };
 
 export const copyright = {
-  link1: {
-    name: 'Privacy & Terms',
-    href: '/',
-  },
-  link2: {
+  link: {
     name: 'Contáctanos',
     href: '#contacto',
   },
   copyText: 'Copyright @ 2023 Decofis',
   social: [
     { icon: FacebookIcon, href: 'https://www.facebook.com/profile.php?id=100064041577037' },
-    { icon: TwitterIcon, href: '/' },
-    { icon: LinkedinIcon, href: '/' },
+    { icon: WhatsAppIcon, href: 'https://wa.me/qr/TIL6M66BGOQ5H1' },
+
   ],
 };
