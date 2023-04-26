@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Hero from './components/Hero';
 import Feature1 from './components/Feature1';
