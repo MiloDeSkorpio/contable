@@ -8,7 +8,7 @@ const Feature2 = () => {
   //destrucure feature2
   const { pretitle, title, subtitle, btnLink, btnIcon, image} = feature2
   return (
-    <section className='section bg-blue-50'>
+    <section className='section bg-blue-50' id='vision'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           {/** image **/}
@@ -28,9 +28,9 @@ const Feature2 = () => {
             <div className='pretitle'>{pretitle}</div>
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
-            <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
+            <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#servicios'>
               {btnLink}<img src={btnIcon} alt='icon' />
-            </button>
+            </a>
           </div>
 
         </div>

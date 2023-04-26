@@ -17,10 +17,10 @@ export const header = {
 };
 
 export const nav = [
-  { name: 'Features', href: '/' },
-  { name: 'About us', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Feedback', href: '/' },
+  { name: 'Misión', href: '#mision' },
+  { name: 'Visión', href: '#vision' },
+  { name: 'Servicios', href: '#servicios' },
+  
 ];
 
 export const hero = {
@@ -46,7 +46,7 @@ export const features = {
     title: 'Vision',
     subtitle:
       'Liderar como una de las firmas más confiables a nivel nacional e internacional, llevando de la mano a nuestros clientes con nuestros servicios, que lleguen al nivel que desean',
-    btnLink: 'Learn more',
+    btnLink: 'Servicios',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
@@ -55,7 +55,8 @@ export const features = {
     title: 'Catalogo de Servicios',
     subtitle:
       'Contamos con un amplio catalogo de servicios',
-    btnLink: 'Learn more',
+    btnLink1: 'Contable y Fiscal',
+    btnLink2: 'Laboral y Administrativo',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
   },

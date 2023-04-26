@@ -31,10 +31,10 @@ const Hero = () => {
               data-aos-delay='700'
               >
 
-              <button className='btn btn-md lg:btn-lg btn-accent flex justify-center lg:gap-x-4'>
+              <a className='btn btn-md lg:btn-lg btn-accent flex justify-center lg:gap-x-4 w-52' href='#mision'>
               {btnText}
               <HiOutlineChevronDown />
-              </button>
+              </a>
               <span className='text-ligth lg:lead lg:mb-0'>{compText}</span>
             </div>
           </div>

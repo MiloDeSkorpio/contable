@@ -50,14 +50,14 @@ const Header = () => {
             <Nav />
           </div>
           {/** cta button - initially hideen - show on desktop mode **/}
-          <button 
+          <a 
             className='btn btn-sm btn-outline hidden lg:flex'
             data-aos='fade-down' 
             data-aos-delay='1400'
             href='#contacto'
           >
             {btnText}
-          </button>
+          </a>
           {/** mobile nav trigger btn - hidden on desktop mode */}
           <button className='lg:hidden' onClick={() =>{
             setMovileNav(!mobileNav)

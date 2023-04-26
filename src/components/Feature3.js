@@ -6,9 +6,9 @@ const Feature3 = () => {
   //destructure features
   const { feature3} = features
   //destrucure feature3
-  const { pretitle, title, subtitle, btnLink, btnIcon, image} = feature3
+  const { pretitle, title, subtitle, btnLink1, btnLink2 , btnIcon, image} = feature3
   return (
-    <section className='section bg-blue-50'>
+    <section className='section bg-blue-50' id='servicios'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           {/** image **/}
@@ -28,9 +28,12 @@ const Feature3 = () => {
             <div className='pretitle'>{pretitle}</div>
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
-            <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
-              {btnLink}<img src={btnIcon} alt='icon' />
-            </button>
+            <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#contable'>
+              {btnLink1}<img src={btnIcon} alt='icon' />
+            </a>
+            <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#laboral'>
+              {btnLink2}<img src={btnIcon} alt='icon' />
+            </a>
           </div>
 
         </div>
