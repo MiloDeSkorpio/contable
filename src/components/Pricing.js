@@ -19,11 +19,16 @@ const Pricing = () => {
                 data-aos-delay='200'
         >{title}</h2>
         <div className='flex flex-col lg:grid lg:grid-cols-3'>
-        <img 
-        src={img} 
-        alt='logof'
-        className='w-full h-full p-5 col-span-1' 
-        />
+        <div 
+            data-aos='fade-right'
+            data-aos-offset='300'
+          >
+            <img 
+              src={img} 
+              alt='logof'
+              className='w-full h-full col-span-1 p-4'
+            />
+          </div>
         {/** cards **/}
         <div className='flex flex-col mb-1 md:grid md:col-span-2 md:grid-cols-3 gap-2'>
           {cards.map((card,cardIndex) => {

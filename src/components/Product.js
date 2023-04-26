@@ -22,11 +22,16 @@ const Product = () => {
         </div>
         <div className='flex flex-col-reverse lg:grid lg:grid-cols-3'>
           <Cards/>
+          <div 
+            data-aos='fade-left'
+            data-aos-offset='300'
+          >
           <img 
             src={img} 
             alt='logof'
             className='w-full h-full col-span-1 p-4'
           />
+          </div>
         </div>
       </div>
 
