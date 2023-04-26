@@ -26,34 +26,42 @@ const { form } = footer
               <form className='bg-blue-100 max-w-[600px] rounded-lg mb-[10px] p-2 py-4 shadow-lg'>
                   <h2 className='text-4xl font-semibold mb-5 text-center'>Ingresa tus Datos</h2>
                   <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
-                    <label className='font-semibold pr-4'>Nombre</label>
+                    <label className='font-semibold pr-4' for='nombre'>Nombre</label>
                     <input 
                       type='text' 
                       className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph1}
+                      name='nombre'
+                      id='nombre'
                     />
                   </div>
                   <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
-                    <label className='font-semibold pr-4'>Correo</label>
+                    <label className='font-semibold pr-4' for='email'>Correo</label>
                     <input 
                       type='text' 
                       className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph2}
+                      name='email'
+                      id='email'
                     />
                   </div>
                   <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
-                    <label className='font-semibold pr-4'>Asunto</label>
+                    <label className='font-semibold pr-4' for='asunto'>Asunto</label>
                     <input 
                       type='text' 
                       className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph3}
+                      name='asunto'
+                      id='asunto'
                     />
                   </div>
                   <div className='h-[170px] p-[7px] flex flex-col items-center my-4'>
-                    <label className='font-semibold pr-4'>Mensaje</label>
+                    <label className='font-semibold pr-4' for='mensaje'>Mensaje</label>
                     <textarea 
                       className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph4}
+                      name='mensaje'
+                      id='mensaje'
                     />
                   </div>
                   <button className='btn btn-sm bg-blue-500 hover:bg-blue-600 w-full text-white'>{form.btnText}</button>

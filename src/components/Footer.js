@@ -24,19 +24,22 @@ const Footer = () => {
               />
           </div>
           {/** social icons **/}
+          <div>
+          <h2 className='text-xl font-semibold mb-4'>Redes Sociales</h2>
           <ul className='flex gap-x-[20px]'>
             {social.map((item,index) => {
               //destrucuture icon
               const { href, icon } = item
               return (
                 <li key={index}>
-                  <a href={href} rel="noopener">
+                  <a href={href} target="_blank" rel="noopener noreferrer">
                     <img src={icon} alt='social' className='h-12 w-12'/>
                   </a>
                 </li>
               )
             })}
           </ul>
+          </div>
         <Copyright />
         </div>
       </div>
