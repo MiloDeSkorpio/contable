@@ -164,7 +164,6 @@ export const copyright = {
   copyText: 'Copyright @ 2023 Decofis',
   social: [
     { icon: FacebookIcon, href: 'https://www.facebook.com/profile.php?id=100064041577037' },
-    { icon: WhatsAppIcon, href: 'https://wa.me/qr/TIL6M66BGOQ5H1' },
-
+    { icon: WhatsAppIcon, href: 'https://wa.me/qr/TIL6M66BGOQ5H1' }
   ],
 };

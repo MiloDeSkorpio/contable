@@ -30,7 +30,7 @@ const Footer = () => {
               const { href, icon } = item
               return (
                 <li key={index}>
-                  <a href={href} target="_blank">
+                  <a href={href} rel="noopener">
                     <img src={icon} alt='social' className='h-12 w-12'/>
                   </a>
                 </li>
