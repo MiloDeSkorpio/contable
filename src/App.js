@@ -33,7 +33,6 @@ const App = () => {
       <Pricing />
       <Testimonials />
       <Footer />
-      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };

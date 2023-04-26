@@ -2,10 +2,26 @@ import React from 'react';
 //import data
 import { footer } from '../data';
 //import components
-
+import emailjs from '@emailjs/browser'
 
 const Testimonials = () => {
-  //destructure testimonials
+
+const sendEmail = (e) => {
+  e.preventDefault()
+  const serviceID = 'service_x4h37p6';
+  const templateID = 'template_rpd00t8';
+  emailjs.sendForm(serviceID,templateID,e.target,'SrPwTLrUjuKyf1SmD')
+  .then(() => {
+    alert('Mensaje Enviado!');
+    window.location.href='/'
+  }, (error) => { 
+    alert(JSON.stringify(error));
+    window.location.href='/'
+  })
+  
+}
+
+
 const { form } = footer
   return (
     <section className='bg-blue-50 section flex' id='contacto'>
@@ -23,7 +39,7 @@ const { form } = footer
               data-aos-delay='800'
           >
               {/** form **/}
-              <form className='bg-blue-100 max-w-[600px] rounded-lg mb-[10px] p-2 py-4 shadow-lg'>
+              <form className='bg-blue-100 max-w-[600px] rounded-lg mb-[10px] p-2 py-4 shadow-lg' onSubmit={sendEmail}>
                   <h2 className='text-4xl font-semibold mb-5 text-center'>Ingresa tus Datos</h2>
                   <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
                     <label className='font-semibold pr-4' for='nombre'>Nombre</label>
@@ -33,16 +49,18 @@ const { form } = footer
                       placeholder={form.ph1}
                       name='nombre'
                       id='nombre'
+                      required
                     />
                   </div>
                   <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
                     <label className='font-semibold pr-4' for='email'>Correo</label>
                     <input 
-                      type='text' 
+                      type='email' 
                       className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph2}
                       name='email'
                       id='email'
+                      required
                     />
                   </div>
                   <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
@@ -53,6 +71,7 @@ const { form } = footer
                       placeholder={form.ph3}
                       name='asunto'
                       id='asunto'
+                      required
                     />
                   </div>
                   <div className='h-[170px] p-[7px] flex flex-col items-center my-4'>
@@ -62,9 +81,13 @@ const { form } = footer
                       placeholder={form.ph4}
                       name='mensaje'
                       id='mensaje'
+                      required
                     />
                   </div>
-                  <button className='btn btn-sm bg-blue-500 hover:bg-blue-600 w-full text-white'>{form.btnText}</button>
+                  <button
+                    id='buttonForm' 
+                    className='btn btn-sm bg-blue-500 hover:bg-blue-600 w-full text-white'
+                  >{form.btnText}</button>
               </form>
               <span className='text-sm text-light'>{form.smallText}</span>
           </div>
