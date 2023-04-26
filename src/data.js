@@ -118,7 +118,7 @@ export const pricing = {
       delay: 100
     },
     {
-      title: 'Altas Bajas IMMS',
+      title: 'Altas Bajas IMSS',
       delay: 200
     },
     {
@@ -126,16 +126,12 @@ export const pricing = {
       delay: 300
     },
     {
-      title: 'Formalización de Declaraciones IMMS,ICSOE, y SISUB',
+      title: 'Formalización de Declaraciones IMSS,ICSOE, y SISUB',
       delay: 400
     },
     {
       title: 'Formalización de contratos laborales y sus prórogas',
       delay: 500
-    },
-    {
-      title: 'Representante de Administración',
-      delay: 600
     },
     {
       title: 'Tramite y seguimiento para REPSE',
