@@ -26,11 +26,11 @@ const Product = () => {
             data-aos='fade-left'
             data-aos-offset='300'
           >
-          <img 
-            src={img} 
-            alt='logof'
-            className='w-full h-full col-span-1 p-4'
-          />
+            <img 
+              src={img} 
+              alt='logof'
+              className='w-full h-full col-span-1 p-4'
+            />
           </div>
         </div>
       </div>
