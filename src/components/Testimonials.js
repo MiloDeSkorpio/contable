@@ -31,7 +31,7 @@ const { form } = footer
           className='title mb-10 lg:mb-20 text-center max-w-[920px] mx-auto'
           data-aos='fade-up'
           data-aos-delay='200'
-        >Contactanos</h2>
+        >Contáctanos</h2>
         <div className='flex flex-col-reverse lg:flex-row justify-center items-center'>
           <div
               data-aos='fade-up'
