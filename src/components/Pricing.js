@@ -14,7 +14,7 @@ const Pricing = () => {
       <div className='container mx-auto'>
         {/** title **/}
         <h2 
-          className='h2 mb-10 lg:mb-20 text-center'
+          className='h2 mb-10 lg:mb-15 text-center'
           data-aos='fade-up'
                 data-aos-delay='200'
         >{title}</h2>
@@ -42,7 +42,7 @@ const Pricing = () => {
                   className={`${cardIndex === index 
                     ? 'bg-blue-300 shadow-xl'
                     :'border border-blue-500'
-                  }  w-[240px] h-[140px] rounded-[12px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center cursor-pointer transition-all                  
+                  }  w-[240px] h-[140px] rounded-[15px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center cursor-pointer transition-all                  
                   `}
                 >
                   {/** card title **/}

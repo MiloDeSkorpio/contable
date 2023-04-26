@@ -10,6 +10,7 @@ import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
 import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
 import ContactImg from '../src/assets/img/form/contact.svg';
+import ContableImg from '../src/assets/img/product/contable.svg'
 
 export const header = {
   logo: LogoImg,
@@ -63,8 +64,7 @@ export const features = {
 
 export const product = {
   title: 'Contable y Fiscal',
-  subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+  img: ContableImg,
   cards: [
     {
       title: 'Cumplimiento de obligaciones fiscales',

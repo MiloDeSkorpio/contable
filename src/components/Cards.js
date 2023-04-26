@@ -11,7 +11,7 @@ const Cards = () => {
   return (
     <>
       {/** cards **/}
-      <div className='grid grid-rows-1 gap-y-[20px] md:grid-cols-3 md:gap-y-[35px] lg:grid-cols-4 lg:gap-y-[30px] xl:grid-cols-5'>
+      <div className='flex flex-col mb-1 md:grid md:col-span-2 md:grid-cols-3 gap-2'>
         {cards.map((card,cardIndex) => {
           //destructure card
           const { title, delay } = card
@@ -24,10 +24,13 @@ const Cards = () => {
             >
               <div 
                 onClick={() => setIndex(cardIndex)}
-                className={`${index === cardIndex ? 'bg-blue-300 shadow-2xl' : 'border border-blue-500'} w-[200px] h-[175px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center rounded-[15px] cursor-pointer transition-all`}
+                className={`${index === cardIndex 
+                  ? 'bg-blue-300 shadow-2xl' 
+                  : 'border border-blue-500'
+                } w-[240px] h-[140px] md:w-[220px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center rounded-[15px] cursor-pointer transition-all`}
               >
                 {/** card title **/}
-                <div className='mb-3 text-[25px] font-medium'>{title}</div>
+                <div className='mb-3 text-[20px] font-semibold'>{title}</div>
                 {/** card img **/}
                 {index === cardIndex &&  <a href='#contacto'><img src={ArrowImg} alt='rowcard' /></a>}
               </div>

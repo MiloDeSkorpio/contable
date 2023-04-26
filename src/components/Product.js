@@ -5,12 +5,12 @@ import { product } from '../data';
 import Cards from './Cards'
 const Product = () => {
   //destrucure product data
-  const {title, subtitle} = product
+  const {title, img } = product
   return (
     <section className='section bg-blue-50' id=''>
       <div className='container mx-auto'>
         {/** title & subtitle **/}
-        <div className='flex flex-col items-center mb-10 lg:mb-20'>
+        <div className='flex flex-col items-center mb-10 lg:mb-15'>
           <h2
             className='section-title'
             data-aos='fade-up'
@@ -19,14 +19,15 @@ const Product = () => {
           >
           {title}
           </h2>
-          <p 
-            className='lead lg:max-w-[450px]'
-            data-aos='fade-up'
-            data-aos-offset='400'
-            data-aos-delay='400'
-          >{subtitle}</p>
         </div>
-        <Cards />
+        <div className='flex flex-col-reverse lg:grid lg:grid-cols-3'>
+          <Cards/>
+          <img 
+            src={img} 
+            alt='logof'
+            className='w-full h-full col-span-1 p-4'
+          />
+        </div>
       </div>
 
     </section>
