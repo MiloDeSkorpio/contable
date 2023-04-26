@@ -32,7 +32,7 @@ const { form } = footer
           data-aos='fade-up'
           data-aos-delay='200'
         >Contactanos</h2>
-        <div className='flex flex-col-reverse lg:flex-row'>
+        <div className='flex flex-col-reverse lg:flex-row justify-center items-center'>
           <div
               data-aos='fade-up'
               data-aos-offset='200'
@@ -45,7 +45,7 @@ const { form } = footer
                     <label className='font-semibold pr-4' for='nombre'>Nombre</label>
                     <input 
                       type='text' 
-                      className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
+                      className='w-full h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph1}
                       name='nombre'
                       id='nombre'
@@ -56,7 +56,7 @@ const { form } = footer
                     <label className='font-semibold pr-4' for='email'>Correo</label>
                     <input 
                       type='email' 
-                      className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
+                      className='w-full h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph2}
                       name='email'
                       id='email'
@@ -67,7 +67,7 @@ const { form } = footer
                     <label className='font-semibold pr-4' for='asunto'>Asunto</label>
                     <input 
                       type='text' 
-                      className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
+                      className='w-full h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph3}
                       name='asunto'
                       id='asunto'
@@ -77,7 +77,7 @@ const { form } = footer
                   <div className='h-[170px] p-[7px] flex flex-col items-center my-4'>
                     <label className='font-semibold pr-4' for='mensaje'>Mensaje</label>
                     <textarea 
-                      className='w-96 h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
+                      className='w-full h-full p-6 border-none rounded-lg outline-none placeholder:text-slate-500 '
                       placeholder={form.ph4}
                       name='mensaje'
                       id='mensaje'
@@ -95,6 +95,7 @@ const { form } = footer
             data-aos='fade-down'
             data-aos-offset='200'
             data-aos-delay='800'
+            className='p-5'
           >
             <img 
                 src={form.logo} 
