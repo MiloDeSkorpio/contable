@@ -18,14 +18,14 @@ const Pricing = () => {
           data-aos='fade-up'
                 data-aos-delay='200'
         >{title}</h2>
-        <div className='grid grid-cols-3'>
+        <div className='flex flex-col lg:grid lg:grid-cols-3'>
         <img 
         src={img} 
         alt='logof'
         className='w-full h-full p-5 col-span-1' 
         />
         {/** cards **/}
-        <div className='grid col-span-2 grid-cols-3 gap-2'>
+        <div className='flex flex-col mb-1 md:grid md:col-span-2 md:grid-cols-3 gap-2'>
           {cards.map((card,cardIndex) => {
             //destructure card
             const { title, delay} = card
@@ -42,7 +42,7 @@ const Pricing = () => {
                   className={`${cardIndex === index 
                     ? 'bg-blue-300 shadow-xl'
                     :'border border-blue-500'
-                  }  w-[240px] h-[140px] rounded-[15px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center cursor-pointer transition-all                  
+                  }  w-[240px] h-[140px] rounded-[15px] md:w-[220px] bg-blue-200 flex flex-col items-center justify-center mx-auto p-[10px] text-center cursor-pointer transition-all                  
                   `}
                 >
                   {/** card title **/}
