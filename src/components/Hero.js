@@ -19,7 +19,7 @@ const Hero = () => {
               {title}
             </h1>
             <p
-              className='lead mb-5 lg:mb-10'
+              className='text-gray-500 text-2xl mb-5 lg:mb-10'
               data-aos="fade-down"
               data-aos-delay='600'
             >
@@ -34,7 +34,7 @@ const Hero = () => {
                 {btnText}
                 <HiOutlineChevronDown />
               </a>
-              <span className='text-ligth lg:lead lg:mb-0'>{compText}</span>
+              <span className='text-gray-500 lg:mb-0'>{compText}</span>
             </div>
           </div>
           <div

@@ -20,7 +20,7 @@ const Footer = () => {
             <img
               src={logo}
               alt='logof'
-              className='h-56 w-56'
+              className='w-40 h-28'
             />
           </div>
           {/** social icons **/}

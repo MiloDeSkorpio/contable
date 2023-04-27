@@ -38,7 +38,7 @@ const Header = () => {
           <img
             src={logo}
             alt='logo'
-            className='w-36 h-24 m-0'
+            className='w-40 h-28 m-0'
           />
         </a>
         {/** nav - initially hidden - show on desktop mode **/}
