@@ -37,7 +37,7 @@ const Testimonials = () => {
             data-aos-delay='800'
           >
             {/** form **/}
-            <form className='bg-blue-100 max-w-[600px] rounded-lg mb-[10px] p-2 py-4 shadow-lg' onSubmit={sendEmail}>
+            <form className='bg-blue-100 max-w-[600px] rounded-lg mb-[10px] p-2 py-4 shadow-lg lg:w-[450px]' onSubmit={sendEmail}>
               <h2 className='text-4xl font-semibold mb-5 text-center'>Ingresa tus Datos</h2>
               <div className='h-[62px] p-[7px] flex flex-col items-center my-4'>
                 <label className='font-semibold pr-4' for='nombre'>Nombre</label>
