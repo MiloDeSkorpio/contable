@@ -12,40 +12,40 @@ const Footer = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:justify-between gap-y-8'>
           {/** logo **/}
-          <div 
+          <div
             data-aos='fade-up'
             data-aos-offset='200'
             data-aos-delay='300'
           >
-            <img 
-              src={logo} 
-              alt='logof' 
+            <img
+              src={logo}
+              alt='logof'
               className='h-56 w-56'
-              />
+            />
           </div>
           {/** social icons **/}
           <div>
-          <h2 className='text-xl font-semibold mb-4'>Redes Sociales</h2>
-          <ul className='flex gap-x-[20px]'>
-            {social.map((item,index) => {
-              //destrucuture icon
-              const { href, icon } = item
-              return (
-                <li key={index}>
-                  <a href={href} target="_blank" rel="noopener noreferrer">
-                    <img src={icon} alt='social' className='h-12 w-12'/>
-                  </a>
-                </li>
-              )
-            })}
-          </ul>
+            <h2 className='text-xl font-semibold mb-4'>Redes Sociales</h2>
+            <ul className='flex gap-x-[20px]'>
+              {social.map((item, index) => {
+                //destrucuture icon
+                const { href, icon } = item
+                return (
+                  <li key={index}>
+                    <a href={href} target="_blank" rel="noopener noreferrer">
+                      <img src={icon} alt='social' className='h-12 w-12' />
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
           </div>
-        <Copyright />
+          <Copyright />
         </div>
       </div>
     </footer>
 
-)
+  )
 };
 
 export default Footer;

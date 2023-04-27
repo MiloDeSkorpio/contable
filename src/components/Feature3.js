@@ -4,15 +4,15 @@ import { features } from '../data';
 
 const Feature3 = () => {
   //destructure features
-  const { feature3} = features
+  const { feature3 } = features
   //destrucure feature3
-  const { pretitle, title, subtitle, btnLink1, btnLink2 , btnIcon, image} = feature3
+  const { pretitle, title, subtitle, btnLink1, btnLink2, btnIcon, image } = feature3
   return (
     <section className='section bg-blue-50' id='servicios'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
           {/** image **/}
-          <div 
+          <div
             className='flex-1 order-2 lg:order-1'
             data-aos='fade-rigth'
             data-aos-offset='300'
@@ -20,7 +20,7 @@ const Feature3 = () => {
             <img src={image} alt='feature' />
           </div>
           {/** text **/}
-          <div 
+          <div
             className='flex-1 order-1 lg:order-2'
             data-aos='fade-left'
             data-aos-offset='400'
@@ -41,7 +41,7 @@ const Feature3 = () => {
       </div>
 
     </section>
-    )
+  )
 };
 
 export default Feature3;

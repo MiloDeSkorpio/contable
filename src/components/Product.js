@@ -5,7 +5,7 @@ import { product } from '../data';
 import Cards from './Cards'
 const Product = () => {
   //destrucure product data
-  const {title, img } = product
+  const { title, img } = product
   return (
     <section className='section bg-blue-50' id='contable'>
       <div className='container mx-auto'>
@@ -17,17 +17,17 @@ const Product = () => {
             data-aos-offset='400'
             data-aos-delay='300'
           >
-          {title}
+            {title}
           </h2>
         </div>
         <div className='flex flex-col-reverse lg:grid lg:grid-cols-3'>
-          <Cards/>
-          <div 
+          <Cards />
+          <div
             data-aos='fade-left'
             data-aos-offset='300'
           >
-            <img 
-              src={img} 
+            <img
+              src={img}
               alt='logof'
               className='w-full h-full col-span-1 p-4'
             />
@@ -36,7 +36,7 @@ const Product = () => {
       </div>
 
     </section>
-    )
+  )
 };
 
 export default Product;
