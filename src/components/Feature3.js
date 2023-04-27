@@ -28,7 +28,7 @@ const Feature3 = () => {
             <div className='pretitle'>{pretitle}</div>
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
-            <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#contable'>
+            <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all mb-3' href='#contable'>
               {btnLink1}<img src={btnIcon} alt='icon' />
             </a>
             <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#laboral'>
