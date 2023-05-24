@@ -24,6 +24,8 @@ const Feature1 = () => {
               {btnLink}<img
                 src={btnIcon}
                 alt='icon'
+                width='24' 
+                height='24'
                 className='text-blue-700'
               />
             </a>
