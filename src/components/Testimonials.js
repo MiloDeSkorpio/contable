@@ -98,6 +98,8 @@ const Testimonials = () => {
             <img
               src={form.logo}
               alt='logof'
+              width='540'
+              height='540'
             />
           </div>
         </div>

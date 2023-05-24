@@ -17,7 +17,12 @@ const Feature2 = () => {
             data-aos='fade-rigth'
             data-aos-offset='300'
           >
-            <img src={image} alt='feature' />
+            <img 
+              src={image} 
+              alt='feature' 
+              width='540'
+              height='540'
+            />
           </div>
           {/** text **/}
           <div
@@ -29,7 +34,7 @@ const Feature2 = () => {
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
             <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#servicios'>
-              {btnLink}<img src={btnIcon} alt='icon' />
+              {btnLink}<img src={btnIcon} alt='icon' width='24' height='24'/>
             </a>
           </div>
         </div>

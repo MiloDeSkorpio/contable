@@ -53,7 +53,7 @@ const Pricing = () => {
                     {/** card title **/}
                     <div className='text-[20px] font-semibold mb-3'>{title}</div>
                     {/** card img **/}
-                    {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard' /></a>}
+                    {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard'  width='24' height='24'/></a>}
                   </div>
                 </div>
               )

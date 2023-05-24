@@ -38,6 +38,8 @@ const Header = () => {
           <img
             src={logo}
             alt='logo'
+            width='40' 
+            height='28'
             className='w-40 h-28 m-0'
           />
         </a>
