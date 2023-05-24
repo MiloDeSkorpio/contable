@@ -32,7 +32,7 @@ const Cards = () => {
                 {/** card title **/}
                 <div className='mb-3 text-[20px] font-semibold'>{title}</div>
                 {/** card img **/}
-                {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard' /></a>}
+                {index === cardIndex && <a href='#contacto'><img src={ArrowImg} alt='rowcard' width="16" height="8"/></a>}
               </div>
             </div>
           )
