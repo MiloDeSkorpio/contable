@@ -34,7 +34,7 @@ const Hero = () => {
                 {btnText}
                 <HiOutlineChevronDown />
               </a>
-              <span className='text-gray-500 lg:mb-0'>{compText}</span>
+              <span className='text-gray-800 lg:mb-0'>{compText}</span>
             </div>
           </div>
           <div
