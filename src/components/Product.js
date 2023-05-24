@@ -30,6 +30,8 @@ const Product = () => {
               src={img}
               alt='logof'
               className='w-full h-full col-span-1 p-4'
+              width='24' 
+              height='24'
             />
           </div>
         </div>
