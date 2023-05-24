@@ -34,7 +34,12 @@ const Feature1 = () => {
             data-aos='fade-left'
             data-aos-offset='300'
           >
-            <img src={image} alt='feature' />
+            <img 
+              src={image} 
+              alt='feature' 
+              width='540'
+              height='540'
+              />
           </div>
         </div>
       </div>

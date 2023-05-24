@@ -17,7 +17,12 @@ const Feature3 = () => {
             data-aos='fade-rigth'
             data-aos-offset='300'
           >
-            <img src={image} alt='feature' />
+            <img 
+              src={image} 
+              alt='feature'
+              width='540'
+              height='540'
+            />
           </div>
           {/** text **/}
           <div
@@ -32,7 +37,7 @@ const Feature3 = () => {
               {btnLink1}<img src={btnIcon} alt='icon' />
             </a>
             <a className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all' href='#laboral'>
-              {btnLink2}<img src={btnIcon} alt='icon' />
+              {btnLink2}<img src={btnIcon} alt='icon' width='24' height='24' />
             </a>
           </div>
 

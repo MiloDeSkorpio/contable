@@ -42,7 +42,12 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay='800'
           >
-            <img src={image} alt="imageHero" />
+            <img 
+              src={image} 
+              alt="imageHero"
+              width='540'
+              height='540'
+            />
           </div>
         </div>
       </div>
