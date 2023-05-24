@@ -61,7 +61,7 @@ const Header = () => {
           {btnText}
         </a>
         {/** mobile nav trigger btn - hidden on desktop mode */}
-        <button className='lg:hidden' onClick={() => {
+        <button className='lg:hidden' aria-label="mobile nav" onClick={() => {
           setMovileNav(!mobileNav)
         }}>
           {mobileNav ? (

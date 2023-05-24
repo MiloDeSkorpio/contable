@@ -19,7 +19,7 @@ const Hero = () => {
               {title}
             </h1>
             <p
-              className='text-gray-500 text-2xl mb-5 lg:mb-10'
+              className='text-gray-800 text-2xl mb-5 lg:mb-10'
               data-aos="fade-down"
               data-aos-delay='600'
             >
