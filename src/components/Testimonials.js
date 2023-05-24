@@ -8,7 +8,7 @@ const Testimonials = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    const serviceID = 'service_x4h37p6';
+    const serviceID = 'default_service';
     const templateID = 'template_rpd00t8';
     emailjs.sendForm(serviceID, templateID, e.target, 'SrPwTLrUjuKyf1SmD')
       .then(() => {
